@@ -1,0 +1,27 @@
+@import "tailwindcss";
+
+/* Custom styles for the table */
+.table-header {
+  background-color: #f9fafb; /* Light gray background for the header */
+}
+
+.table-row:hover {
+  background-color: #f3f4f6; /* Slightly darker gray for hover effect */
+}
+
+.text-green {
+  color: #16a34a; /* Tailwind green-500 */
+}
+
+.text-red {
+  color: #dc2626; /* Tailwind red-500 */
+}
+
+.table-cell {
+  padding: 12px;
+  text-align: right;
+}
+
+.table-cell-left {
+  text-align: left;
+}
